@@ -1,0 +1,140 @@
+*{
+    list-style: none;
+    text-decoration: none;      /*링크 색 바뀌는 것 삭제*/
+    border-collapse: collapse;  /*모든 밑줄 뜨는 것 삭제*/
+    margin:0px;
+    padding: 0px;
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    /* -ms-user-select: none; 
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none; 각 브라우저 별로 텍스트 복사 금지*/
+    user-select: none; /*텍스트 복사 금지*/
+}
+
+
+.all{
+    background-color: white;
+}
+
+.content_font{
+    font-size: 24px;
+}
+
+#Ghori{
+    font-size: 30px;    
+}
+
+.name>p{
+     margin-top: 24px;
+}
+
+.intro{
+    background-image: url(paintground.jpg);
+    background-size: cover;
+    height: 1000px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    width: 1280px;
+    height: 90px;
+    margin: auto;
+    justify-content: space-between
+}
+
+.header>.search_area{
+    width:300px;
+    height:40px;
+    border-radius: 5px;
+    margin-top: 24px;
+    margin-left: 200px;
+}
+
+.search_area>form{
+    width: 350px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.search_area>form>input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding-left: 10px;
+}
+
+.search_area>form>span{
+    cursor: pointer;
+    margin: auto;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.nav{
+    display: flex;
+    margin-top: 24px;    
+}
+
+.nav>li>a{
+    margin-left: 30px;
+}
+
+.intro_main>.profile_img>img{
+    width: 300px;
+    border-radius: 70%;
+}
+
+
+.intro_main>.profile_img{
+    align-items: center;
+    display: flex;              /*display: flex와 justify-content: center 세트*/
+    justify-content: center;  
+    margin-top: 150px;
+}
+
+.introduce1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 900;
+    
+}
+.introduce2{
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.intro_main>ul>a{
+    width: 300px;
+    margin: auto;
+    display: inline-block;
+    display: flex;
+    border-radius: 5px;
+}
+
+.contact_me{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.about_me{
+    background-color:#daffff;
+    height: 900px;
+}
+
+
